@@ -1,23 +1,23 @@
-import random
+# import random
 
-#소수 확인
-def is_prime_number(num):
-    n = 1
-    s = 0
-    is_prime = False
+# #소수 확인
+# def is_prime_number(num):
+#     n = 1
+#     s = 0
+#     is_prime = False
 
-    while(n <= num):
-        if num%n == 0:
-            s+=1
-        n += 1
+#     while(n <= num):
+#         if num%n == 0:
+#             s+=1
+#         n += 1
 
-    if s == 2:
-        is_prime = True
-    else:
-        is_prime = False
+#     if s == 2:
+#         is_prime = True
+#     else:
+#         is_prime = False
 
-    print(f"{num} 은 소수입니까? : {is_prime}")
-    return is_prime
+#     print(f"{num} 은 소수입니까? : {is_prime}")
+#     return is_prime
 
 # a = [2, 1, 5, 6, 7]
 # b = []
